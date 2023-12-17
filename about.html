@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon/site.webmanifest">
+    <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <title>Keln.vn | Giới thiệu</title>
+
+    <!--====== Google Font ======-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
+
+    <!--====== Vendor Css ======-->
+    <link rel="stylesheet" href="css/vendor.css">
+
+    <!--====== Utility-Spacing ======-->
+    <link rel="stylesheet" href="css/utility.css">
+
+    <!--====== App ======-->
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body class="config">
+    <div class="preloader is-active">
+        <div class="preloader__wrap">
+
+            <img class="preloader__img" src="images/preloader.png" alt=""></div>
+    </div>
+
+    <!--====== Main App ======-->
+    <div id="app">
+
+        <!--====== Phần đầu trang ======-->
+  <header class="header--style-2">
+
+    <!--====== Điều hướng 1  ======-->
+    <nav class="primary-nav-wrapper">
+        <div class="container">
+
+            <!--====== Điều hướng chính ======-->
+            <div class="primary-nav">
+
+                <!--====== Logo ở header ======-->
+
+                <a class="main-logo" href="index.html">
+
+                    <img src="images/logo/logo-2.png" alt=""></a>
+                <!--====== Kết thúc Logo ở header ======-->
+
+
+                <!--====== Ô tìm kiếm ======-->
+                <form class="main-form">
+
+                    <label for="main-search"></label>
+
+                    <input class="input-text input-text--border-radius input-text--style-2" type="text" id="main-search" placeholder="Tìm kiếm">
+
+                    <button class="btn btn--icon fas fa-search main-search-button" type="submit"></button></form>
+                <!--====== Kết thúc ô tìm kiếm ======-->
+
+
+                <!--====== Công cụ răng cưa kế bên ô tìm kiếm ======-->
+                <div class="menu-init" id="navigation">
+
+                    <button class="btn btn--icon toggle-button toggle-button--white fas fa-cogs" type="button"></button>
+
+                    <!--====== Menu của công cụ răng cưa ======-->
+                    <div class="ah-lg-mode">
+
+                        <span class="ah-close">✕ Đóng</span>
+
+                        <!--====== Danh sách các mục trong menu công cụ răng cưa ======-->
+                        <ul class="ah-list ah-list--design1 ah-list--link-color-white">
+                             <!--====== Mục Tài khoản  ======-->
+                            <li class="has-dropdown" data-tooltip="tooltip" data-placement="left" title="Tài khoản">
+
+                                <a><i class="far fa-user-circle"></i></a>
+
+                                <!--====== Thả dấu cộng đầu tiên  ======-->
+
+                                <span class="js-menu-toggle"></span>
+                                <ul style="width:170px">
+                                    <li>
+
+                                        <a href="dashboard.html"><i class="fas fa-user-circle u-s-m-r-6"></i>
+
+                                            <span>Tài khoản</span></a></li>
+                                    <li>
+
+                                        <a href="signup.html"><i class="fas fa-user-plus u-s-m-r-6"></i>
+
+                                            <span>Đăng ký</span></a></li>
+                                    <li>
+
+                                        <a href="signin.html"><i class="fas fa-lock u-s-m-r-6"></i>
+
+                                            <span>Đăng nhập</span></a></li>
+                                    <li>
+
+                                        <a href="signup.html"><i class="fas fa-lock-open u-s-m-r-6"></i>
+
+                                            <span>Đăng xuất</span></a></li>
+                                </ul>
+                                <!--====== Kết thúc thả dấu cộng đầu tiên ======-->
+                            </li>
+                                <!--====== Kết thúc mục Tài khoản  ======-->
+
+                                <!--====== Mục Cài đặt  ======-->
+                            <li class="has-dropdown" data-tooltip="tooltip" data-placement="left" title="Cài đặt">
+
+                                <a><i class="fas fa-user-cog"></i></a>
+
+                                <!--====== Thả dấu cộng thứ 2 ======-->
+
+                                <span class="js-menu-toggle"></span>
+                                <ul style="width:140px">
+                                    <!--====== Mục Ngôn ngữ ======-->
+                                    <li class="has-dropdown has-dropdown--ul-right-100">
+
+                                        <a>Ngôn ngữ<i class="fas fa-angle-down u-s-m-l-6"></i></a>
+
+                                        <!--====== Thả xuống mục Ngôn ngữ ======-->
+
+                                        <span class="js-menu-toggle"></span>
+                                        <ul style="width:200px">
+                                            <li>
+
+                                                <a class="u-c-brand">Vietnamese</a></li>
+                                            <li>
+
+                                                <a>English</a></li>
+                                            
+                                        </ul>
+                                        <!--====== Kết thúc thả xuống ======-->
+                                    </li>
+                                    <!--====== Kết thúc mục Ngôn ngữ ======-->
+
+                                    <!--======  Mục Tiền tệ ======-->
+                                    <li class="has-dropdown has-dropdown--ul-right-100">
+
+                                        <a>Tiền tệ<i class="fas fa-angle-down u-s-m-l-6"></i></a>
+
+                                        <!--====== Thả xuống mục Tiền tệ ======-->
+
+                                        <span class="js-menu-toggle"></span>
+                                        <ul style="width:200px">
+                                            <li>
+
+                                                <a class="u-c-brand">₫ - Việt Nam Đồng</a></li>
+                                            <li>
+
+                                                <a>$ - US Dollar</a></li>
+                                    
+                                        </ul>
+                                        <!--====== Kết thúc thả xuống ======-->
+                                    </li>
+                                    <!--====== Kết thúc mục Tiền tệ ======-->
+                                </ul>
+                                <!--====== Kết thúc dấu cộng thứ 2 ======-->
+                            </li>
+                            <!--======  Kết thúc mục Cài đặt ======-->
+
+                            <!--======   Mục Liên hệ ======-->
+                            <li data-tooltip="tooltip" data-placement="left" title="Liên hệ">
+
+                                <a href="tel:+0900901904"><i class="fas fa-phone-volume"></i></a></li>
+                            <!--======   Kết thúc mục Liên hệ ======-->
+
+                        </ul>
+                        <!--====== Kết thúc danh sách các mục con trong công cụ răng cưa ======-->
+                    </div>
+                    <!--====== Kết thúc menu công cụ răng cưa ======-->
+                </div>
+                <!--====== Kết thúc công cụ răng cưa kế bên ô tìm kiếm ======-->
+            </div>
+            <!--====== Kết thúc điều hướng chính ======-->
+        </div>
+    </nav>
+    <!--====== Kết thúc điều hướng 1 ======-->
+
+
+    <!--====== Điều hướng 2 ======-->
+    <nav class="secondary-nav-wrapper">
+        <div class="container">
+
+            <!--====== Bắt đầu điều hướng thứ 2 ======-->
+            <div class="secondary-nav">
+
+                <!--====== Menu ngang hình răng cưa ======-->
+                <div class="menu-init" id="navigation2">
+
+                    <button class="btn btn--icon toggle-button toggle-button--white fas fa-list" type="button"></button>
+
+                    <!--====== Mở menu ngang hình răng cưa  ======-->
+                    <div class="ah-lg-mode">
+
+                        <span class="ah-close">✕ Đóng</span>
+
+                        <!--====== Danh sách các mục con trong menu ngang ======-->
+                        <ul class="ah-list ah-list--design2 ah-list--link-color-white">
+                            <!--====== Trang chủ ======-->
+                            <li class="has-dropdown">
+
+                                <a href="index.html">Trang chủ</a>
+                            </li>
+                            <!--====== Kết thúc trang chủ ======-->
+
+                            <!--====== Trang sản phẩm ======-->
+                            <li class="has-dropdown">
+
+                                <a href="shop-side-version-2.html">Sản phẩm<i class="fas fa-angle-down u-s-m-l-6"></i></a>
+                                <span class="js-menu-toggle"></span>
+                                <ul style="width:200px">
+                                    <li>
+
+                                        <a href="shop-side-version-2.html">Chăm sóc da mặt</a></li>
+                                    <li>
+
+                                        <a href="shop-side-version-2.html">Chăm sóc thân thể</a></li>
+                                    <li>
+
+                                        <a href="shop-side-version-2.html">Bộ sản phẩm</a></li>
+                                    <li>
+
+                                        <a href="shop-side-version-2.html">Sản phẩm tiện ích</a></li>
+                                </ul>
+                            </li>
+                            
+                            <!--====== Kết thúc trang sản phẩm ======-->
+                            
+                            <!--====== Trang Kiến thức ======-->
+                            <li class="has-dropdown">
+
+                                <a href="blog-right-sidebar.html">Kiến thức</a>
+
+                                
+                            </li>
+                            <!--====== Kết thúc trang Kiến thức ======-->
+
+                            <!--====== Trang Về chúng tôi ======-->
+                            <li>
+
+                                <a href="about.html">Về chúng tôi</a></li>
+                            <li>
+
+                            <!--====== Trang Liên hệ ======-->
+                            <li>
+
+                                <a href="contact.html">Liên hệ</a></li>
+                            <li>
+                            <!--====== Kết thúc trang Về chúng tôi ======-->
+
+                            
+                        </ul>
+                        <!--======  Kết thúc danh sách các mục con trong menu ngang ======--> 
+                    </div>
+                    <!--====== Tắt menu ngang hình răng cưa ======-->
+                </div>
+                <!--======  Kết thúc menu ngang hình răng cưa ======--> 
+
+
+                <!--====== Công cụ hình giỏ hàng ======-->
+                <div class="menu-init" id="navigation3">
+
+                    <button class="btn btn--icon toggle-button toggle-button--secondary fas fa-shopping-bag toggle-button-shop" type="button"></button>
+
+                    <span class="total-item-round">2</span>
+
+                    <!--====== Menu trong công cụ hình giỏ hàng ======-->
+                    <div class="ah-lg-mode">
+
+                        <span class="ah-close">✕ Đóng</span>
+
+                        <!--====== Danh sách các mục con trong công cụ giỏ hàng ======-->
+                        <ul class="ah-list ah-list--design1 ah-list--link-color-white">
+                            
+                            <li>
+                                <!--====== Nút trái tim (Wishlist) ======-->
+                                <a href="wishlist.html"><i class="far fa-heart"></i></a></li>  <!--====== Dẫn đến trang wishlist khi bấm vào nút ======-->
+
+                            <li class="has-dropdown">
+                                <!--====== Nút giỏ hàng ======-->
+                                <a href="" class="mini-cart-shop-link"><i class="fas fa-shopping-bag"></i> <!--====== Dẫn đến trang giỏ hàng khi bấm vào nút ======-->
+
+                                    <span class="total-item-round">2</span></a>
+
+
+                                <!--====== Thả xuống nút giỏ hàng ======-->
+
+                                <span class="js-menu-toggle"></span>
+                                <div class="mini-cart">
+
+                                    <!--====== Khối chứa các sản phẩm được thêm vào giỏ ======-->
+                                    <div class="mini-product-container gl-scroll u-s-m-b-15">
+
+                                        <!--====== Sản phẩm 1 ======-->
+                                        <div class="card-mini-product">
+                                            <div class="mini-product">
+                                                <!--====== Ảnh sản phẩm 1 ======-->
+                                                <div class="mini-product__image-wrapper">
+                                                    <a class="mini-product__link" href="product-detail.html">
+
+                                                        <img class="u-img-fluid" src="images/product/skincare/product3.jpg" alt=""></a></div>
+                                                <!--====== Phần chi tiết sản phẩm đã thêm vào giỏ ======-->
+                                                <div class="mini-product__info-wrapper">
+
+                                                    <span class="mini-product__category">
+
+                                                        <a href="shop-side-version-2.html">Chăm sóc da mặt</a></span>
+
+                                                    <span class="mini-product__name">
+
+                                                        <a href="product-detail.html">Kem dưỡng ẩm kiểm soát dầu nhờn đa năng 80g</a></span>
+
+                                                    <span class="mini-product__quantity">1 x</span>
+
+                                                    <span class="mini-product__price">219.000₫</span></div>
+                                            </div>
+                                            <!--====== Nút xóa sản phẩm ======-->
+                                            <a class="mini-product__delete-link far fa-trash-alt"></a>
+                                        </div>
+                                        <!--====== Kết thúc sản phẩm 1 ======-->
+
+
+                                        <!--====== Sản phẩm 2 ======-->
+                                        <div class="card-mini-product">
+                                            <div class="mini-product">
+                                                <!--====== Ảnh sản phẩm 2 ======-->
+                                                <div class="mini-product__image-wrapper">
+
+                                                    <a class="mini-product__link" href="product-detail.html">
+                                                        <img class="u-img-fluid" src="images/product/skincare/product7.jpg" alt=""></a></div>
+                                                <!--====== Phần chi tiết sản phẩm đã thêm vào giỏ  ======-->
+                                                <div class="mini-product__info-wrapper">
+
+                                                    <span class="mini-product__category">
+
+                                                        <a href="shop-side-version-2.html">Chăm sóc da mặt</a></span>
+
+                                                    <span class="mini-product__name">
+
+                                                        <a href="product-detail.html">Serum Calm ngừa mụn, làm dịu da</a></span>
+
+                                                    <span class="mini-product__quantity">2 x</span>
+
+                                                    <span class="mini-product__price">219.000₫</span></div>
+                                            </div>
+                                            <!--====== Nút xóa sản phẩm ======-->
+                                            <a class="mini-product__delete-link far fa-trash-alt"></a>
+                                        </div>
+                                        <!--====== Kết thúc sản phẩm 2 ======-->
+                                    </div>
+                                    <!--====== Kết thúc khối chứa các sản phẩm có trong giỏ ======-->
+
+
+                                    <!--====== Phần thống kê giá trị giỏ hàng ======-->
+                                    <div class="mini-product-stat">
+                                        <div class="mini-total">
+
+                                            <span class="subtotal-text">Tổng cộng</span>
+
+                                            <span class="subtotal-value">657.000₫</span></div>
+                                        <div class="mini-action">
+
+                                            <a class="mini-link btn--e-brand-b-2" href="checkout.html">THANH TOÁN</a>
+
+                                            <a class="mini-link btn--e-transparent-secondary-b-2" href="cart.html">XEM GIỎ HÀNG</a></div>
+                                    </div>
+                                    <!--====== Kết thúc phần thống kê giá trị giỏ hàng ======-->
+                                </div>
+                                <!--====== Kết thúc thả xuống nút giỏ hàng ======-->
+                            </li>
+                        </ul>
+                        <!--====== Kết thúc danh sách các mục con trong công cụ giỏ hàng ======-->
+                    </div>
+                    <!--====== Kết thúc menu trong công cụ hình giỏ hàng ======-->
+                </div>
+                <!--====== Kết thúc công cụ hình giỏ hàng ======-->
+            </div>
+            <!--====== Kết thúc điều hướng thứ 2 ======-->
+        </div>
+    </nav>
+    <!--====== Kết thúc điều hướng 2 ======-->
+</header>
+    <!--====== Kết thúc phần đầu của trang chủ ======-->
+
+
+        <!--====== App Content ======-->
+        <div class="app-content">
+
+            <!--====== Section 1 (Thanh điều hướng) ======-->
+            <div class="u-s-p-y-60">
+
+                <!--====== Nội dung section ======-->
+                <div class="section__content">
+                    <div class="container">
+                        <div class="breadcrumb">
+                            <div class="breadcrumb__wrap">
+                                <ul class="breadcrumb__list">
+                                    <li class="has-separator">
+
+                                        <a href="index.html">Trang chủ</a></li>
+                                    <li class="is-marked">
+
+                                        <a href="about.html">Về chúng tôi</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--====== Kết thúc nội dung section ======-->
+            </div>
+            <!--====== Kết thúc Section 1 ======-->
+
+
+            <!--====== Section 2 (Về KELN) ======-->
+            <div class="u-s-p-b-60">
+
+                <!--====== Nội dung section ======-->
+                <div class="section__content">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="about">
+                                    <div class="about__container">
+                                        <div class="about__info">
+                                            <h1 class="about__h2">Về KELN</h2>
+                                            <div class="about__p-wrap">
+                                                <p class="about__p">Cuộc sống càng hiện đại, con người ngày một phát triển nên nhu cầu chăm sóc sức khỏe bản thân càng được chú trọng nhiều hơn. Nhắc đến sức khỏe thì chúng ta không thể nào không nhắc tới việc chăm sóc da hằng ngày trước và sau khi học tập hoặc làm việc. Trước đây, đồ skincare thường được dành cho các chị em phụ nữ nhằm đáp ứng nhu cầu chăm sóc sắc đẹp. Nhưng theo thời gian, nhu cầu đó cũng được cánh mày râu chúng ta quan tâm và tìm hiểu nhiều hơn . Lắng nghe được điều đó nên KELN FOR MEN ra đời nhằm cung cấp các sản phẩm skincare cho nam phù hợp với mọi loại da với mức giá hợp lý và chất lượng đảm bảo khi sử dụng lâu dài. </p>
+                                            </div>
+
+                                            <a class="about__link btn--e-secondary" href="shop-side-version-2.html" target="_blank">Mua ngay</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--====== Kết thúc nội dung section ======-->
+            </div>
+            <!--====== Kết thúc Section 2 ======-->
+
+
+            <!--====== Section 3 (Vinh dự xuất hiện trên) ======-->
+            <div class="u-s-p-b-60">
+
+                <!--====== Section Intro(Tiêu đề) ======-->
+                <div class="section__intro u-s-m-b-46">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="section__text-wrap">
+                                    <h1 class="section__heading u-c-secondary">Vinh dự được xuất hiện trên</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--====== Kết thúc tiêu đề ======-->
+
+
+                <!--====== Nội dung ======-->
+                <div class="section__content">
+                    <div class="container">
+                        <div class="row">
+                            <!--====== Ảnh 1 ======-->
+                            <div class="col-lg-3 col-md-4 col-sm-6 u-s-m-b-30">
+                                <div class="team-member u-h-100">
+                                    <div class="team-member__wrap">
+                                        <div class="aspect aspect--bg-grey-fb aspect--square">
+
+                                            <img class="aspect__img team-member__img" src="images/about/member-1.jpg" alt=""></div>
+                                        <div class="team-member__social-wrap">
+                                            <ul class="team-member__social-list">
+                                                <li>
+
+                                                    <a class="s-tw--bgcolor-hover" href="#"><i class="fab fa-twitter"></i></a></li>
+                                                <li>
+
+                                                    <a class="s-fb--bgcolor-hover" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                                <li>
+
+                                                    <a class="s-insta--bgcolor-hover" href="#"><i class="fab fa-instagram"></i></a></li>
+                                                <li>
+
+                                                    <a class="s-linked--bgcolor-hover" href="#"><i class="fab fa-linkedin"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--======Kết thúc ảnh 1 ======-->
+                            <!--====== Ảnh 2 ======-->
+                            <div class="col-lg-3 col-md-4 col-sm-6 u-s-m-b-30">
+                                <div class="team-member u-h-100">
+                                    <div class="team-member__wrap">
+                                        <div class="aspect aspect--bg-grey-fb aspect--square">
+
+                                            <img class="aspect__img team-member__img" src="images/about/member-2.jpg" alt=""></div>
+                                        <div class="team-member__social-wrap">
+                                            <ul class="team-member__social-list">
+                                                <li>
+
+                                                    <a class="s-tw--bgcolor-hover" href="#"><i class="fab fa-twitter"></i></a></li>
+                                                <li>
+
+                                                    <a class="s-fb--bgcolor-hover" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                                <li>
+
+                                                    <a class="s-insta--bgcolor-hover" href="#"><i class="fab fa-instagram"></i></a></li>
+                                                <li>
+
+                                                    <a class="s-linked--bgcolor-hover" href="#"><i class="fab fa-linkedin"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--====== Kết thúc ảnh 2 ======-->
+
+                            <!--====== Ảnh 3 ======-->
+                            <div class="col-lg-3 col-md-4 col-sm-6 u-s-m-b-30">
+                                <div class="team-member u-h-100">
+                                    <div class="team-member__wrap">
+                                        <div class="aspect aspect--bg-grey-fb aspect--square">
+
+                                            <img class="aspect__img team-member__img" src="images/about/member-3.jpg" alt=""></div>
+                                        <div class="team-member__social-wrap">
+                                            <ul class="team-member__social-list">
+                                                <li>
+
+                                                    <a class="s-tw--bgcolor-hover" href="#"><i class="fab fa-twitter"></i></a></li>
+                                                <li>
+
+                                                    <a class="s-fb--bgcolor-hover" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                                <li>
+
+                                                    <a class="s-insta--bgcolor-hover" href="#"><i class="fab fa-instagram"></i></a></li>
+                                                <li>
+
+                                                    <a class="s-linked--bgcolor-hover" href="#"><i class="fab fa-linkedin"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--====== Kết thúc ảnh 3 ======-->
+
+                            <!--====== Ảnh 4 ======-->
+                            <div class="col-lg-3 col-md-4 col-sm-6 u-s-m-b-30">
+                                <div class="team-member u-h-100">
+                                    <div class="team-member__wrap">
+                                        <div class="aspect aspect--bg-grey-fb aspect--square">
+
+                                            <img class="aspect__img team-member__img" src="images/about/member-4.jpg" alt=""></div>
+                                        <div class="team-member__social-wrap">
+                                            <ul class="team-member__social-list">
+                                                <li>
+
+                                                    <a class="s-tw--bgcolor-hover" href="#"><i class="fab fa-twitter"></i></a></li>
+                                                <li>
+
+                                                    <a class="s-fb--bgcolor-hover" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                                <li>
+
+                                                    <a class="s-insta--bgcolor-hover" href="#"><i class="fab fa-instagram"></i></a></li>
+                                                <li>
+
+                                                    <a class="s-linked--bgcolor-hover" href="#"><i class="fab fa-linkedin"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--====== Kết thúc ảnh 4 ======-->
+                        </div>
+                    </div>
+                </div>
+                <!--====== Kết thúc nội dung section ======-->
+            </div>
+            <!--====== Kết thúc Section 3 ======-->
+
+
+            <!--====== Section 4 (Reviews) ======-->
+            <div class="u-s-p-b-90 u-s-m-b-30">
+
+                <!--====== Section Intro (Tiêu đề) ======-->
+                <div class="section__intro u-s-m-b-46">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="section__text-wrap">
+                                    <h1 class="section__heading u-c-secondary u-s-m-b-12">Reviews</h1>
+
+                                    <span class="section__span u-c-silver">Khách hàng nói gì ?</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--====== Kết thúc Section Intro ======-->
+
+
+                <!--====== Nội dung section ======-->
+                <div class="section__content">
+                    <div class="container">
+
+                        <!--====== Reviews của từng người ======-->
+                        <div class="slider-fouc">
+                            <div class="owl-carousel" id="testimonial-slider">
+                                <div class="testimonial">
+                                    <div class="testimonial__img-wrap">
+
+                                        <img class="testimonial__img" src="images/about/test-1.jpg" alt=""></div>
+                                    <div class="testimonial__content-wrap">
+
+                                        <span class="testimonial__double-quote"><i class="fas fa-quote-right"></i></span>
+                                        <blockquote class="testimonial__block-quote">
+                                            <p>"Bộ sản phẩm phù hợp nhiều loại da. Huân đánh giá bộ sản phẩm của KELN rất đáng để trải nghiệm với sản phẩm được đầu tư tốt, thiết kế tốt, trải nghiệm tốt với chính sách chăm sóc khách hàng rất tuyệt vời. Mình rất tự tin giới thiệu KELN cho nhiều anh em khác."</p>
+                                        </blockquote>
+
+                                        <span class="testimonial__author">Hữu Huân - Youtouber Dzai Điệu</span>
+                                    </div>
+                                </div>
+                                <div class="testimonial">
+                                    <div class="testimonial__img-wrap">
+
+                                        <img class="testimonial__img" src="images/about/test-2.jpg" alt=""></div>
+                                    <div class="testimonial__content-wrap">
+
+                                        <span class="testimonial__double-quote"><i class="fas fa-quote-right"></i></span>
+                                        <blockquote class="testimonial__block-quote">
+                                            <p>"Nếu bạn không có thời gian tìm hiểu về skincare, hay không biết phải bắt đầu từ đâu, thì đơn giản nhất là bắt đầu với KELN ngay thôi."</p>
+                                        </blockquote>
+
+                                        <span class="testimonial__author">Youtuber Huy Quốc</span>
+                                    </div>
+                                </div>
+                                <div class="testimonial">
+                                    <div class="testimonial__img-wrap">
+
+                                        <img class="testimonial__img" src="images/about/test-3.jpg" alt=""></div>
+                                    <div class="testimonial__content-wrap">
+
+                                        <span class="testimonial__double-quote"><i class="fas fa-quote-right"></i></span>
+                                        <blockquote class="testimonial__block-quote">
+                                            <p>"KELN rất phù hợp với người bận rộn như tôi. Các combo được thiết kế tinh tế, cùng thành phần thiên nhiên thân thiện, xứng đáng là một phần trong hành trình trở thành phiên bản tốt hơn của chính anh em."</p>
+                                        </blockquote>
+
+                                        <span class="testimonial__author">Quang Nghĩa - Youtuber Men's Bay</span>
+                                    </div>
+                                </div>
+                                <div class="testimonial">
+                                    <div class="testimonial__img-wrap">
+
+                                        <img class="testimonial__img" src="images/about/test-4.jpg" alt=""></div>
+                                    <div class="testimonial__content-wrap">
+
+                                        <span class="testimonial__double-quote"><i class="fas fa-quote-right"></i></span>
+                                        <blockquote class="testimonial__block-quote">
+                                            <p>"Gần đây được KELN gửi tặng bộ sản phẩm chăm sóc da tinh gọn, dễ xài dễ hiểu. Quan trọng là Đức Bảo đã dùng được 1 tháng và thấy rất hợp với da Đức Bảo."</p>
+                                        </blockquote>
+
+                                        <span class="testimonial__author">MC Đức Bảo</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--====== Kết thúc phần reviews của từng người ======-->
+                    </div>
+                </div>
+                <!--====== Kết thúc nội dung section ======-->
+            </div>
+            <!--====== Kết thúc Section 4 ======-->
+        </div>
+        <!--====== Kết thúc App Content ======-->
+
+
+        <!--====== Main Footer ======-->
+        <footer>
+            <div class="outer-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="outer-footer__content u-s-m-b-40">
+                                <div class="u-s-m-b-15"><img src="images/logo/logo-2.png" alt=""></div>
+                                <span class="outer-footer__content-title">LIÊN HỆ VỚI CHÚNG TÔI</span>
+                                <div class="outer-footer__text-wrap"><i class="fas fa-home"></i>
+
+                                    <span>Tầng 5 - Tòa nhà UEH B2, 279 Nguyễn Tri Phương, Phường 5, Quận 10, TP. Hồ Chí Minh.</span></div>
+                                <div class="outer-footer__text-wrap"><i class="fas fa-phone-volume"></i>
+
+                                    <span>0889.68.68.68</span></div>
+                                <div class="outer-footer__text-wrap"><i class="far fa-envelope"></i>
+
+                                    <span>forwork@keln.com.vn</span></div>
+                                <div class="outer-footer__social">
+                                    <ul>
+                                        <li>
+
+                                            <a class="s-fb--color-hover" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li>
+
+                                            <a class="s-tw--color-hover" href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li>
+
+                                            <a class="s-youtube--color-hover" href="#"><i class="fab fa-youtube"></i></a></li>
+                                        <li>
+
+                                            <a class="s-insta--color-hover" href="#"><i class="fab fa-instagram"></i></a></li>
+                                        <li>
+
+                                            <a class="s-gplus--color-hover" href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="outer-footer__content u-s-m-b-40">
+
+                                        <span class="outer-footer__content-title">Cửa hàng</span>
+                                        <div class="outer-footer__list-wrap">
+                                            <ul>
+                                                <li>
+
+                                                    <a href="shop-side-version-2.html">Sản phẩm tiện ích</a></li>
+                                                <li>
+
+                                                    <a href="shop-side-version-2.html">Bộ sản phẩm</a></li>
+                                                <li>
+
+                                                    <a href="shop-side-version-2.html">Chăm sóc da mặt</a></li>
+                                                <li>
+
+                                                    <a href="shop-side-version-2.html">Chăm sóc thân thể</a></li>
+                                                <li>
+
+                                        
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="outer-footer__content u-s-m-b-40">
+                                        <div class="outer-footer__list-wrap">
+
+                                            <span class="outer-footer__content-title">Về chúng tôi</span>
+                                            <ul>
+                                                <li>
+
+                                                    <a href="about.html">Giới thiệu</a></li>
+                                                <li>
+
+                                                    <a href="contact.html">Hệ thống cửa hàng</a></li>
+                                                <li>
+
+                                                    <a href="blog-right-sidebar.html">Kiến thức</a></li>
+                                                
+                                                
+
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12">
+                            <div class="outer-footer__content">
+
+                                <span class="outer-footer__content-title">Tham gia với chúng tôi</span>
+                                <form class="newsletter">
+                                    <div class="u-s-m-b-15">
+                                        <div class="radio-box newsletter__radio">
+
+                                            <input type="radio" id="male" name="gender">
+                                            <div class="radio-box__state radio-box__state--primary">
+
+                                                <label class="radio-box__label" for="male">Nam</label></div>
+                                        </div>
+                                        <div class="radio-box newsletter__radio">
+
+                                            <input type="radio" id="female" name="gender">
+                                            <div class="radio-box__state radio-box__state--primary">
+
+                                                <label class="radio-box__label" for="female">Nữ</label></div>
+                                        </div>
+                                    </div>
+                                    <div class="newsletter__group">
+
+                                        <label for="newsletter"></label>
+
+                                        <input class="input-text input-text--only-white" type="text" id="newsletter" placeholder="Nhập email của bạn">
+
+                                        <button class="btn btn--e-brand newsletter__btn" type="submit">ĐĂNG KÝ</button></div>
+
+                                    <span class="newsletter__text">Đăng ký vào danh sách gửi thư để nhận thông tin cập nhật về chương trình khuyến mãi, hàng mới, giảm giá và phiếu giảm giá.</span>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="lower-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="lower-footer__content">
+                                <div class="lower-footer__copyright">
+
+                                    <span>Cảm ơn đã ghé trang</span>
+
+                                    <a href="index.html">Keln.</a>
+
+                                    </div>
+                                <div class="lower-footer__payment">
+                                    <ul>                                
+                                        <li><i class="fab fa-cc-paypal"></i></li>
+                                        <li><i class="fab fa-cc-mastercard"></i></li>
+                                        <li><i class="fab fa-cc-visa"></i></li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!--====== End - Main App ======-->
+
+
+    <!--====== Google Analytics: change UA-XXXXX-Y to be your site's ID ======-->
+    <script>
+        window.ga = function() {
+            ga.q.push(arguments)
+        };
+        ga.q = [];
+        ga.l = +new Date;
+        ga('create', 'UA-XXXXX-Y', 'auto');
+        ga('send', 'pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+
+    <!--====== Vendor Js ======-->
+    <script src="js/vendor.js"></script>
+
+    <!--====== jQuery Shopnav plugin ======-->
+    <script src="js/jquery.shopnav.js"></script>
+
+    <!--====== App ======-->
+    <script src="js/app.js"></script>
+
+    <!--====== Noscript ======-->
+    <noscript>
+        <div class="app-setting">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="app-setting__wrap">
+                            <h1 class="app-setting__h1">JavaScript is disabled in your browser.</h1>
+
+                            <span class="app-setting__text">Please enable JavaScript in your browser or upgrade to a JavaScript-capable browser.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </noscript>
+</body>
+</html>
